@@ -1,0 +1,1211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="UnityGameFramework.Runtime.BaseComponent" Collapsed="true">
+    <Position X="2.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AARBBBhAACAFRCAAAAAAMQAqABCAEAAZQGCABAQAAkg=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Base\BaseComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.GameEntry" Collapsed="true">
+    <Position X="66" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEIAAAAAAAJQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Base\GameEntry.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.GameFrameworkComponent" Collapsed="true">
+    <Position X="25.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Base\GameFrameworkComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.ConfigComponent" Collapsed="true">
+    <Position X="14" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAOAEIGACDABIEEAAAQABEQgIAAgAAAAIAAAQADAAEA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Config\ConfigComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.ConfigHelperBase" Collapsed="true">
+    <Position X="6.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAEAAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Config\ConfigHelperBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.DefaultConfigHelper" Collapsed="true">
+    <Position X="6.5" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAACABAAEAAAAgAAAIwAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Config\DefaultConfigHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.LoadConfigDependencyAssetEventArgs" Collapsed="true">
+    <Position X="52" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAgAAAABAQAAAAAABAAAAAAAEAAAAAAAgBIAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Config\LoadConfigDependencyAssetEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.LoadConfigFailureEventArgs" Collapsed="true">
+    <Position X="53.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQACAAAgAAAAAAQAAAAAAAAAAAAAAEAAAAAAAABIAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Config\LoadConfigFailureEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.LoadConfigSuccessEventArgs" Collapsed="true">
+    <Position X="55.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAgAAACAAQAAAAAAAAAAAAAAEAAAAAAAABIAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Config\LoadConfigSuccessEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.LoadConfigUpdateEventArgs" Collapsed="true">
+    <Position X="57.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAgAAAAAAQAAAAAAAAAAAAAAEAAAAAAAADIAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Config\LoadConfigUpdateEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.DataNodeComponent" Collapsed="true">
+    <Position X="41" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABECAAACEAAQAAAAAAEAAAAAAAAAAAEABAAEA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\DataNode\DataNodeComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.DataRowBase" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="60.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\DataTable\DataRowBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.DataTableComponent" Collapsed="true">
+    <Position X="5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CQIAEACAACAhIEAABAQAAEQAIBAkAAAAGAAAQCAAAEA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\DataTable\DataTableComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.DataTableHelperBase" Collapsed="true">
+    <Position X="12.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAEAAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\DataTable\DataTableHelperBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.DefaultDataTableHelper" Collapsed="true">
+    <Position X="12.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACABAAEAAAAgAAAIgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\DataTable\DefaultDataTableHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.LoadDataTableDependencyAssetEventArgs" Collapsed="true">
+    <Position X="59" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAgAAAABCAAAAAAABAAAAAAAEAAAAAAAgBIAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\DataTable\LoadDataTableDependencyAssetEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.LoadDataTableFailureEventArgs" Collapsed="true">
+    <Position X="60.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQACAAAgAAAAACAAAAAAAAAAAAAAAEAAAAAAAABIAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\DataTable\LoadDataTableFailureEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.LoadDataTableSuccessEventArgs" Collapsed="true">
+    <Position X="62.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAgAAACACAAAAAAAAAAAAAAAEAAAAAAAABIAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\DataTable\LoadDataTableSuccessEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.LoadDataTableUpdateEventArgs" Collapsed="true">
+    <Position X="64.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAgAAAAACAAAAAAAAAAAAAAAEAAAAAAAADIAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\DataTable\LoadDataTableUpdateEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.DebuggerComponent" Collapsed="true">
+    <Position X="27.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BQYiAABQVKAABDgAdQIwAAlADBimiQRoIDCIKEgiFEA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Debugger\DebuggerComponent.ConsoleWindow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.DownloadAgentHelperBase" Collapsed="true">
+    <Position X="3.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAABAQAAAAAIAAAAAQAAAAAAAEAAAAAACA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Download\DownloadAgentHelperBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.DownloadComponent" Collapsed="true">
+    <Position X="36.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAoAAgQCKAAAUAAEDQAAAAAEAMIAAYCRQCAAACAwUA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Download\DownloadComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.DownloadFailureEventArgs" Collapsed="true">
+    <Position X="53.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYACAAAgAAAAAAgAAAAAAAAAACAAAEAAAAAAAABIAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Download\DownloadFailureEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.DownloadStartEventArgs" Collapsed="true">
+    <Position X="55.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIACAAAgAAAAAAgAAAAAABAAACAAAEAAAAAAAABIAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Download\DownloadStartEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.DownloadSuccessEventArgs" Collapsed="true">
+    <Position X="57.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIACAAAgAAAAAAgAAAAAABAAACAAAEAAAAAAAABIAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Download\DownloadSuccessEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.DownloadUpdateEventArgs" Collapsed="true">
+    <Position X="59" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIACAAAgAAAAAAgAAAAAABAAACAAAEAAAAAAAABIAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Download\DownloadUpdateEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.UnityWebRequestDownloadAgentHelper" Collapsed="true">
+    <Position X="3.5" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAEAAgACAABAQAAAAAIAEAAAQAQBAAAAEAAAMAAAI=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Download\UnityWebRequestDownloadAgentHelper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.AttachEntityInfo" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="53.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQQAAAAAEAAAAAAAARIAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Entity\AttachEntityInfo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.DefaultEntityGroupHelper" Collapsed="true">
+    <Position X="12.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Entity\DefaultEntityGroupHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.DefaultEntityHelper" Collapsed="true">
+    <Position X="0.5" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAACAAAAAAAAAAAAAIAAAAAQAAgAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Entity\DefaultEntityHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.Entity" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="62.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAACAAAAEAgAAAQAAAFAAAEABAAACAYAACAAAAkEAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Entity\Entity.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.EntityComponent" Collapsed="true">
+    <Position X="23" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAABAhAAAKEIIUAKAGSRkABFgAChAwQAACAAKBEoIsE=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Entity\EntityComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.EntityGroupHelperBase" Collapsed="true">
+    <Position X="12.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Entity\EntityGroupHelperBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.EntityHelperBase" Collapsed="true">
+    <Position X="0.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAAQAAgAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Entity\EntityHelperBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.EntityLogic" Collapsed="true">
+    <Position X="64.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MAAAAAgAEAgAAAAAEEBAAAVEBACAAAQIEAgAAAEEAAg=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Entity\EntityLogic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.HideEntityCompleteEventArgs" Collapsed="true">
+    <Position X="50.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAgEAIAAAAAAAAAAAAAAAAACEAAAAAAAABIAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Entity\HideEntityCompleteEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.ShowEntityDependencyAssetEventArgs" Collapsed="true">
+    <Position X="62.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAgAAIABAAAAAAAABAAAAAQCEAAAAAAAgBMAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Entity\ShowEntityDependencyAssetEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.ShowEntityFailureEventArgs" Collapsed="true">
+    <Position X="64.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQACAAAgAAIAAAAAAAAAAAAAAAAQCEAAAAAAAABMAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Entity\ShowEntityFailureEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.ShowEntityInfo" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="66" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAQAEAAAAAAAABICAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Entity\ShowEntityInfo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.ShowEntitySuccessEventArgs" Collapsed="true">
+    <Position X="67.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAACAAAgAAACAAAAAAAAAAAAAAAQAEAAAAAAAABIAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Entity\ShowEntitySuccessEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.ShowEntityUpdateEventArgs" Collapsed="true">
+    <Position X="50.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAgAAIAAAAAAAAAAAAAAAAQCEAAAAAAAADMAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Entity\ShowEntityUpdateEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.EventComponent" Collapsed="true">
+    <Position X="16.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAACAAAACAAAAEAASAAAQmAAAAQAAAAAAAAEA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Event\EventComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.AndroidFileSystemStream" Collapsed="true">
+    <Position X="52" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gCACAACAAAAAQQAkCAQAAABgAAAAAEhgCACEAAGoAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\FileSystem\AndroidFileSystemStream.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.DefaultFileSystemHelper" Collapsed="true">
+    <Position X="9.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAQAAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\FileSystem\DefaultFileSystemHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.FileSystemComponent" Collapsed="true">
+    <Position X="25.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hAAQACAAASAgAAAEAAAAAAQAAAAAIAAAAAAAAAABAEA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\FileSystem\FileSystemComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.FileSystemHelperBase" Collapsed="true">
+    <Position X="9.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\FileSystem\FileSystemHelperBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.FsmComponent" Collapsed="true">
+    <Position X="29.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CACAAAAAACAAAAAAAAACACQAAAAAAAAAAAACAAAAAEA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Fsm\FsmComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.DefaultLocalizationHelper" Collapsed="true">
+    <Position X="6.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAACABAAEAAAAgAAAIwAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Localization\DefaultLocalizationHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.LoadDictionaryDependencyAssetEventArgs" Collapsed="true">
+    <Position X="66" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAgAAAABAAAAAAAABAAAAAAAEAAAAAAAgJIAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Localization\LoadDictionaryDependencyAssetEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.LoadDictionaryFailureEventArgs" Collapsed="true">
+    <Position X="67.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQACAAAgAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAJIAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Localization\LoadDictionaryFailureEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.LoadDictionarySuccessEventArgs" Collapsed="true">
+    <Position X="50.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAgAAACAAAAAAAAAAAAAAAAAEAAAAAAAAJIAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Localization\LoadDictionarySuccessEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.LoadDictionaryUpdateEventArgs" Collapsed="true">
+    <Position X="52" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAgAAAAAAAAAAAAAAAAAAAAAEAAAAAAAALIAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Localization\LoadDictionaryUpdateEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.LocalizationComponent" Collapsed="true">
+    <Position X="9.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAEACACCCBoEEAAYwABEAAYAAgAAEAEIEAQAQAAEA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Localization\LocalizationComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.LocalizationHelperBase" Collapsed="true">
+    <Position X="6.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAEAAAAAAAAAwAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Localization\LocalizationHelperBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.NetworkClosedEventArgs" Collapsed="true">
+    <Position X="62.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAgAAAAAAAAAAAAAIAAAAAAAEAAAAAAAABAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Network\NetworkClosedEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.NetworkComponent" Collapsed="true">
+    <Position X="20.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAQAACAAAAEAEQQCAAAAAAEACAAAAAAABIAAAWA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Network\NetworkComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.NetworkConnectedEventArgs" Collapsed="true">
+    <Position X="64.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAgAAAAAAAAAAAAAIAAAAAAAEAAAAAAAABIAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Network\NetworkConnectedEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.NetworkCustomErrorEventArgs" Collapsed="true">
+    <Position X="66" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAgAAAAAAAAAAAAAIAAAAAAAEEAAAAAAABAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Network\NetworkCustomErrorEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.NetworkErrorEventArgs" Collapsed="true">
+    <Position X="67.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQACAAAgAAAAAAAAAAAAAIAAAAgAAEAAAAAAAABAAgA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Network\NetworkErrorEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.NetworkMissHeartBeatEventArgs" Collapsed="true">
+    <Position X="50.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAgAAAAAAAAAAAAAIAgAAAAAEAAAAAAAABAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Network\NetworkMissHeartBeatEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.ObjectPoolComponent" Collapsed="true">
+    <Position X="38.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACCAAgAAAAAAAAgQAAASAAAAAQAAACBAAQEE=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\ObjectPool\ObjectPoolComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.ProcedureComponent" Collapsed="true">
+    <Position X="43.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAQAAAIAAAAQAAIEAAAAAIAAIAAEE=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Procedure\ProcedureComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.ReferencePoolComponent" Collapsed="true">
+    <Position X="47.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAACACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\ReferencePool\ReferencePoolComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.BuiltinVersionListSerializer" Collapsed="true">
+    <Position X="57.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAICIIACANAAAQgAAACAAAAEAAEAAEAAAJAACAAQALA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Resource\BuiltinVersionListSerializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.DefaultLoadResourceAgentHelper" Collapsed="true">
+    <Position X="9.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAiAAEgiBAbgAEAZAAAAAABAAIQFAAEhgBgEAAACA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Resource\DefaultLoadResourceAgentHelper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.DefaultResourceHelper" Collapsed="true">
+    <Position X="3.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAADAAAAAAAAAAAAAAAAAEAAAAQAAAABAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Resource\DefaultResourceHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.EditorResourceComponent" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="60.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AhcgBwc9CAmBOEU8GBAIiQhACBAFVE2AEJIFqnARIko=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Resource\EditorResourceComponent.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.LoadResourceAgentHelperBase" Collapsed="true">
+    <Position X="9.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAiAAAAABATgAEAAAAAAAAAAAAAEAAEAAAgAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Resource\LoadResourceAgentHelperBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.ResourceApplyFailureEventArgs" Collapsed="true">
+    <Position X="67.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQACAAAgABAAAAAAAAAAAAQAAAAAAEAAAAAAAABAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Resource\ResourceApplyFailureEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.ResourceApplySuccessEventArgs" Collapsed="true">
+    <Position X="50.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAACAAAgABACAAAAAAAAAARAAAAAAEAAAAAAAABAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Resource\ResourceApplySuccessEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.ResourceComponent" Collapsed="true">
+    <Position X="32" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AhcgBi8tCKHC+EYsMJUKAUjADTAJRkyBEFoMpmwDIcg=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Resource\ResourceComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.ResourceHelperBase" Collapsed="true">
+    <Position X="3.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAQAAAABAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Resource\ResourceHelperBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.ResourceUpdateAllCompleteEventArgs" Collapsed="true">
+    <Position X="52" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAgAAAAAAAAAAAAAAAAAAAAAEAAAAAAAABAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Resource\ResourceUpdateAllCompleteEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.ResourceUpdateChangedEventArgs" Collapsed="true">
+    <Position X="53.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAACAAAgAAAAAAgAAAAAABQAACAAAEAAAAAAAABAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Resource\ResourceUpdateChangedEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.ResourceUpdateFailureEventArgs" Collapsed="true">
+    <Position X="55.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QQACAAAgAAAAAAgAAAAAAAQAAAAAAEAAAAAAAABAEAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Resource\ResourceUpdateFailureEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.ResourceUpdateStartEventArgs" Collapsed="true">
+    <Position X="57.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wAACAAAgAAAAAAgAAAAAABQAACAAAEAAAAAAAABAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Resource\ResourceUpdateStartEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.ResourceUpdateSuccessEventArgs" Collapsed="true">
+    <Position X="59" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAACAAAgAAAAAAgAAAAAAARAACAAAEAAAAAAAABAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Resource\ResourceUpdateSuccessEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.SceneAsset" Collapsed="true">
+    <Position X="60.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Resource\SceneAsset.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.ActiveSceneChangedEventArgs" Collapsed="true">
+    <Position X="50.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAACAAAgAEAAAAAAAAAAAAAAAAAAAEAAAAAAAABAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Scene\ActiveSceneChangedEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.LoadSceneDependencyAssetEventArgs" Collapsed="true">
+    <Position X="53.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAgAAAABAAAAAAAABAAAAAAAEAAAAAAAoBIAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Scene\LoadSceneDependencyAssetEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.LoadSceneFailureEventArgs" Collapsed="true">
+    <Position X="55.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQACAAAgAAAAAAAAAAAAAAAAAAAAAEAAAAAAAIBIAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Scene\LoadSceneFailureEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.LoadSceneSuccessEventArgs" Collapsed="true">
+    <Position X="57.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAgAAACAAAAAAAAAAAAAAAAAEAAAAAAAIBIAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Scene\LoadSceneSuccessEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.LoadSceneUpdateEventArgs" Collapsed="true">
+    <Position X="59" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAgAAAAAAAAAAAAAAAAAAAAAEAAAAAAAIDIAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Scene\LoadSceneUpdateEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.SceneComponent" Collapsed="true">
+    <Position X="34.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QQAQAAAAQKACAnAADCQSCCAgAAQkAAAAABgAACIAEkA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Scene\SceneComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.UnloadSceneFailureEventArgs" Collapsed="true">
+    <Position X="62.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAgAAAAAAAAAAAAAAAAAAAAAEAAAAAAAIBIAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Scene\UnloadSceneFailureEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.UnloadSceneSuccessEventArgs" Collapsed="true">
+    <Position X="64.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAgAAAAAAAAAAAAAAAAAAAAAEAAAAAAAIBIAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Scene\UnloadSceneSuccessEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.DefaultSetting" Collapsed="true">
+    <Position X="67.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACgAAgAACAgAgAIAEAABAQAACBAAAAEAAAAAADAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Setting\DefaultSetting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.DefaultSettingHelper" Collapsed="true">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IACggIgAACAgIiAIAkAABAQAgAAAACAEADBAAADAAEA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Setting\DefaultSettingHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.DefaultSettingSerializer" Collapsed="true">
+    <Position X="50.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Setting\DefaultSettingSerializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.PlayerPrefsSettingHelper" Collapsed="true">
+    <Position X="2.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACggIgAACAgIgAIAkAABAQAAAAAAAAEAAAAAADAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Setting\PlayerPrefsSettingHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.SettingComponent" Collapsed="true">
+    <Position X="11.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACgAJgAACAgIgAIAkAABAQAAAAAAAAFQAAAAADAAEA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Setting\SettingComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.SettingHelperBase" Collapsed="true">
+    <Position X="1.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACggIgAACAgIgAIAkAABAQAAAAAAAAEAAAAAADAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Setting\SettingHelperBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.DefaultSoundAgentHelper" Collapsed="true">
+    <Position X="9.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQgAAEMBAAEBAAEGEQAgAhAAAQAIAAAqAJAAAwkAUk=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Sound\DefaultSoundAgentHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.DefaultSoundGroupHelper" Collapsed="true">
+    <Position X="0.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Sound\DefaultSoundGroupHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.DefaultSoundHelper" Collapsed="true">
+    <Position X="6.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAACAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Sound\DefaultSoundHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.PlaySoundDependencyAssetEventArgs" Collapsed="true">
+    <Position X="59" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIACAAAkAAAABAAAAACAABAAAAAAAEAAAQAAAgBIAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Sound\PlaySoundDependencyAssetEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.PlaySoundFailureEventArgs" Collapsed="true">
+    <Position X="60.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYACAAAkAAAAAAAAAACAAAAAAAgAAEAAAQAAAABIAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Sound\PlaySoundFailureEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.PlaySoundInfo" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="62.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEABAAgAAAAAACAAAQAAAAAEAAAAAAAABIAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Sound\PlaySoundInfo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.PlaySoundSuccessEventArgs" Collapsed="true">
+    <Position X="64.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIACAAAkAAACAAAAAAAAQAAAAAAAAEAAAQAAAABIAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Sound\PlaySoundSuccessEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.PlaySoundUpdateEventArgs" Collapsed="true">
+    <Position X="66" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIACAAAkAAAAAAAAAACAAAAAAAAAAEAAAQAAAADIAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Sound\PlaySoundUpdateEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.SoundAgentHelperBase" Collapsed="true">
+    <Position X="9.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAEIAAAEBAAEGAAAAAhAAAQAAAAAoAJAAAwkAQk=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Sound\SoundAgentHelperBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.SoundComponent" Collapsed="true">
+    <Position X="7.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SIgBAIDwGOIAAEgCCQQSgCiBIAAQAAUAAAAAYAiAEmA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Sound\SoundComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.SoundGroupHelperBase" Collapsed="true">
+    <Position X="0.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Sound\SoundGroupHelperBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.SoundHelperBase" Collapsed="true">
+    <Position X="6.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Sound\SoundHelperBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.CloseUIFormCompleteEventArgs" Collapsed="true">
+    <Position X="59" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIACQAAgAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAJIAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\UI\CloseUIFormCompleteEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.DefaultUIFormHelper" Collapsed="true">
+    <Position X="3.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAIIBAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\UI\DefaultUIFormHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.DefaultUIGroupHelper" Collapsed="true">
+    <Position X="0.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\UI\DefaultUIGroupHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.OpenUIFormDependencyAssetEventArgs" Collapsed="true">
+    <Position X="52" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIACQgBgAAAABAAAAAAAABAAAAAAAEAAAAAAAgBIAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\UI\OpenUIFormDependencyAssetEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.OpenUIFormFailureEventArgs" Collapsed="true">
+    <Position X="53.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYACQgBgAAAAAAAAAAAAAAAAAAAAAEAAAAAAAABIAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\UI\OpenUIFormFailureEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.OpenUIFormSuccessEventArgs" Collapsed="true">
+    <Position X="55.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAgAAACAAAAAAAgAAAAAAAAAEAAAAAAAABIAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\UI\OpenUIFormSuccessEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.OpenUIFormUpdateEventArgs" Collapsed="true">
+    <Position X="57.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIACQgBgAAAAAAAAAAAAAAAAAAAAAEAAAAAAAADIAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\UI\OpenUIFormUpdateEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.UIComponent" Collapsed="true">
+    <Position X="45.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QEAAIFQgACBBYEAIQAQSIAREEMAAEKwQGEABBgCCCk0=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\UI\UIComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.UIForm" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="53.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIgAYAFgABAAAAgAAAAAIEEAAAAAAAYRACJAABMAABA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\UI\UIForm.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.UIFormHelperBase" Collapsed="true">
+    <Position X="3.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIBAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\UI\UIFormHelperBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.UIFormLogic" Collapsed="true">
+    <Position X="55.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAEAAAAAAAgAEEAgIAVEAACAAAQZEAoAABEAAAE=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\UI\UIFormLogic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.UIGroupHelperBase" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\UI\UIGroupHelperBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.UIIntKey" Collapsed="true">
+    <Position X="57.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\UI\UIIntKey.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.UIStringKey" Collapsed="true">
+    <Position X="59" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\UI\UIStringKey.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.DefaultCompressionHelper" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="62.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAwABAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Utility\DefaultCompressionHelper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.DefaultJsonHelper" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="64.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Utility\DefaultJsonHelper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.DefaultLogHelper" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="66" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Utility\DefaultLogHelper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.DefaultVersionHelper" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="52" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Utility\DefaultVersionHelper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.Helper" Collapsed="true">
+    <Position X="67.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Utility\Helper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.Log" Collapsed="true">
+    <Position X="60.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAYAAAAAAABAAAAAAAAAAAAAAAEAEAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Utility\Log.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.VarBoolean" Collapsed="true">
+    <Position X="66" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Variable\VarBoolean.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.VarByte" Collapsed="true">
+    <Position X="67.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Variable\VarByte.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.VarByteArray" Collapsed="true">
+    <Position X="50.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Variable\VarByteArray.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.VarChar" Collapsed="true">
+    <Position X="52" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Variable\VarChar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.VarCharArray" Collapsed="true">
+    <Position X="53.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Variable\VarCharArray.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.VarColor" Collapsed="true">
+    <Position X="55.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Variable\VarColor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.VarColor32" Collapsed="true">
+    <Position X="57.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Variable\VarColor32.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.VarDateTime" Collapsed="true">
+    <Position X="59" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Variable\VarDateTime.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.VarDecimal" Collapsed="true">
+    <Position X="60.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Variable\VarDecimal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.VarDouble" Collapsed="true">
+    <Position X="62.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Variable\VarDouble.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.VarGameObject" Collapsed="true">
+    <Position X="64.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAABAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Variable\VarGameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.VarInt16" Collapsed="true">
+    <Position X="66" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Variable\VarInt16.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.VarInt32" Collapsed="true">
+    <Position X="67.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAABAAAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Variable\VarInt32.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.VarInt64" Collapsed="true">
+    <Position X="50.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Variable\VarInt64.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.VarMaterial" Collapsed="true">
+    <Position X="52" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Variable\VarMaterial.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.VarObject" Collapsed="true">
+    <Position X="53.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Variable\VarObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.VarQuaternion" Collapsed="true">
+    <Position X="55.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Variable\VarQuaternion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.VarRect" Collapsed="true">
+    <Position X="57.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Variable\VarRect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.VarSByte" Collapsed="true">
+    <Position X="59" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgQ=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Variable\VarSByte.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.VarSingle" Collapsed="true">
+    <Position X="60.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Variable\VarSingle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.VarString" Collapsed="true">
+    <Position X="62.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Variable\VarString.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.VarTexture" Collapsed="true">
+    <Position X="64.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Variable\VarTexture.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.VarTransform" Collapsed="true">
+    <Position X="66" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAACAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Variable\VarTransform.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.VarUInt16" Collapsed="true">
+    <Position X="67.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAgAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Variable\VarUInt16.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.VarUInt32" Collapsed="true">
+    <Position X="50.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Variable\VarUInt32.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.VarUInt64" Collapsed="true">
+    <Position X="52" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Variable\VarUInt64.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.VarUnityObject" Collapsed="true">
+    <Position X="53.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Variable\VarUnityObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.VarVector2" Collapsed="true">
+    <Position X="55.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Variable\VarVector2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.VarVector3" Collapsed="true">
+    <Position X="57.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Variable\VarVector3.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.VarVector4" Collapsed="true">
+    <Position X="59" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Variable\VarVector4.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.UnityWebRequestAgentHelper" Collapsed="true">
+    <Position X="5.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAADAABQAAAAAAAQAAAAACwBAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\WebRequest\UnityWebRequestAgentHelper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.WebRequestAgentHelperBase" Collapsed="true">
+    <Position X="5.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAQAAAAACgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\WebRequest\WebRequestAgentHelperBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.WebRequestComponent" Collapsed="true">
+    <Position X="18.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACCQBCIAAUAAGhQAAAAAAAAIEAYIIAAICBAAgEA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\WebRequest\WebRequestComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.WebRequestFailureEventArgs" Collapsed="true">
+    <Position X="60.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYACAAAgAAAAAAAAAAAAAAAAAAAAAEIAAAAAAABIAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\WebRequest\WebRequestFailureEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.WebRequestStartEventArgs" Collapsed="true">
+    <Position X="62.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIACAAAgAAAAAAAAAAAAAAAAAAAAAEIAAAAAAABIAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\WebRequest\WebRequestStartEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.WebRequestSuccessEventArgs" Collapsed="true">
+    <Position X="64.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIACAAAgAAAAAAAAEAAAAAEAAAAAAEIAAAAAAABIAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\WebRequest\WebRequestSuccessEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Runtime.WWWFormInfo" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="66" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAEAAAAAgAABIAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\WebRequest\WWWFormInfo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BinaryExtension" Collapsed="true">
+    <Position X="55.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAEAAAAAAAEEIAAAABBCAAAAAAAAAAUCAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Utility\BinaryExtension.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StringExtension" Collapsed="true">
+    <Position X="52" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Utility\StringExtension.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityExtension" Collapsed="true">
+    <Position X="60.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EgAAIAAAAAAAEAEAAgAACAAEABQEMgAAABAgCADAQAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Utility\UnityExtension.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="UnityGameFramework.Runtime.ShutdownType" Collapsed="true">
+    <Position X="55.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAQA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Base\ShutdownType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="UnityGameFramework.Runtime.DebuggerActiveWindowType" Collapsed="true">
+    <Position X="50.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAABAQAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Debugger\DebuggerActiveWindowType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="UnityGameFramework.Runtime.ReferenceStrictCheckType" Collapsed="true">
+    <Position X="53.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAQAAAQEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\ReferencePool\ReferenceStrictCheckType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="UnityGameFramework.Runtime.ReadWritePathType" Collapsed="true">
+    <Position X="52" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIBAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Runtime\Resource\ReadWritePathType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
